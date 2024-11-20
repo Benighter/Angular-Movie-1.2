@@ -22,17 +22,21 @@ export class SearchResultsComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+    /*
     this.route.queryParams.subscribe(params => {
       this.searchQuery = params['query'];
       if (this.searchQuery) {
         this.searchMovies();
       }
     });
+    */
   }
 
+  /*
   searchMovies() {
     this.movieService.searchMovies(this.searchQuery).subscribe(
       movies => this.movies = movies
     );
   }
+  */
 }

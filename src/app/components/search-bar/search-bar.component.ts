@@ -19,11 +19,13 @@ export class SearchBarComponent {
     private movieService: MovieService
   ) {}
 
-  search() {
-    if (this.searchQuery.trim()) {
-      this.router.navigate(['/search'], {
-        queryParams: { query: this.searchQuery }
-      });
-    }
-  }
+  
+  // search() {
+  //   if (this.searchQuery.trim()) {
+  //     this.router.navigate(['/search'], {
+  //       queryParams: { query: this.searchQuery }
+  //     });
+  //   }
+  // }
+  
 }

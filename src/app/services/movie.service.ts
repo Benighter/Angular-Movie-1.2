@@ -11,7 +11,7 @@ export class MovieService {
   private apiKey = '8d595551f86c5ed63a30f17469f09f1a';
   private baseUrl = 'https://api.themoviedb.org/3';
   private imageBaseUrl = 'https://image.tmdb.org/t/p';
-
+ 
   constructor(private http: HttpClient) {}
 
   getPopularMovies(page: number = 1): Observable<Movie[]> {
